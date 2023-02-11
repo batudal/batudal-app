@@ -11,6 +11,10 @@
 	--color-arrow: #181818;
 }
 
+body::-webkit-scrollbar {
+	display: none;
+}
+
 body,
 p,
 h1,
@@ -25,6 +29,8 @@ a {
 
 body {
 	background-color: var(--color-bg);
+	-ms-overflow-style: none; /* IE and Edge */
+	scrollbar-width: none; /* Firefox */
 }
 
 p {

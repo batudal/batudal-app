@@ -50,6 +50,69 @@
 				'Stakeholders had completely different visions for the product. It went unto being a hardware project for 5+ years, seeking a solution via hybrid-fuel technology for the transition period of truck transportation.'
 		},
 		{
+			title: 'innhof',
+			success: false,
+			description:
+				"We envision becoming the leading worldwide community of innovators, where individuals and businesses of all sizes cocreate a better future. Our joint efforts are focused on equipping InnHof's global members with enabling tailor- made programs & services, modern technologies in development and the most inspiring spaces to work at, thus allowing the collaborative creation of brand-new values at an increasing pace.",
+			tags: [
+				{
+					title: 'DEAD 💀',
+					style: 'color: var(--color-primary);'
+				}
+			],
+			achievements: [
+				'ACM technology',
+				'ACM trademarking',
+				'Office space',
+				'Company formation',
+				'First customers'
+			],
+			post_mortem:
+				'Neustrukt is a much needed solution for todays construction industry. However, it needs a lengthy runway to achieve process excellency. We decided to scale down and focus to the core design system and intermediate products.'
+		},
+		{
+			title: 'guuru',
+			success: false,
+			description:
+				'Neustrukt aimed to bring a radical change in house production. Starting from software up to the final product via flexible fabricated modules; Neustrukt allowed for a more efficient and sustainable lifecycle for construction industry.',
+			tags: [
+				{
+					title: 'DEAD 💀',
+					style: 'color: var(--color-primary);'
+				}
+			],
+			achievements: [
+				'ACM technology',
+				'ACM trademarking',
+				'Office space',
+				'Company formation',
+				'First customers'
+			],
+			post_mortem:
+				'Neustrukt is a much needed solution for todays construction industry. However, it needs a lengthy runway to achieve process excellency. We decided to scale down and focus to the core design system and intermediate products.'
+		},
+		{
+			title: 'neustrukt',
+			success: false,
+			description:
+				'Neustrukt aimed to bring a radical change in house production. Starting from software up to the final product via flexible fabricated modules; Neustrukt allowed for a more efficient and sustainable lifecycle for construction industry.',
+			tags: [
+				{
+					title: 'DEAD 💀',
+					style: 'color: var(--color-primary);'
+				}
+			],
+			achievements: [
+				'ACM technology',
+				'ACM trademarking',
+				'Office space',
+				'Company formation',
+				'First customers'
+			],
+			post_mortem:
+				'Neustrukt is a much needed solution for todays construction industry. However, it needs a lengthy runway to achieve process excellency. We decided to scale down and focus to the core design system and intermediate products.'
+		},
+		{
 			title: 'spintop network',
 			success: true,
 			link: 'https://www.spintop.network',
@@ -81,6 +144,13 @@
 		}
 	];
 </script>
+
+<svelte:head>
+	<title>Batu Dal</title>
+	<meta name="description" content="Batu Dal's personal website about startup attempts" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<link rel="icon" type="image/png" href={`${assets}/favicon.png`} />
+</svelte:head>
 
 <main>
 	<div class="background-wrapper">
