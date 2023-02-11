@@ -1,0 +1,131 @@
+:root {
+	--color-bg: #313130;
+	--color-light: #ffffff;
+	--color-dark: rgba(0, 0, 0, 0.6);
+	--color-lightish: rgba(255, 255, 255, 0.1);
+
+	--color-primary: #f23153;
+	--color-pivot: #7a31f2;
+	--color-incubating: #f2b031;
+	--color-walking: #31f27e;
+	--color-arrow: #181818;
+}
+
+body,
+p,
+h1,
+h2,
+h3,
+h4,
+span,
+a {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: var(--color-bg);
+}
+
+p {
+	font-family: 'Roboto Mono', monospace;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 28px;
+	color: var(--color-light);
+}
+
+h1 {
+	font-family: 'Space Grotesk', sans-serif;
+	font-size: 64px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 72px;
+	color: var(--color-light);
+}
+
+h2 {
+	font-family: 'Space Grotesk', sans-serif;
+	font-size: 48px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 56px;
+	color: var(--color-light);
+}
+
+h3 {
+	font-family: 'Space Grotesk', sans-serif;
+	font-size: 24px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 24px;
+	color: var(--color-primary);
+}
+
+h4 {
+	font-family: 'Space Grotesk', sans-serif;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 24px;
+	color: var(--color-light);
+}
+
+span {
+	color: var(--color-primary);
+}
+
+a {
+	text-decoration: none;
+	color: var(--color-primary);
+	font-weight: 700;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+.tag {
+	display: flex;
+	flex-direction: row;
+	padding: 12px 24px;
+	box-sizing: border-box;
+	justify-content: center;
+	align-items: center;
+	background-color: var(--color-lightish);
+	border-radius: 12px;
+	width: fit-content;
+}
+.tag-link {
+	display: flex;
+	flex-direction: row;
+	padding: 8px 12px;
+	box-sizing: border-box;
+	justify-content: center;
+	align-items: center;
+	background-color: var(--color-lightish);
+	border-radius: 12px;
+	width: fit-content;
+	cursor: pointer;
+}
+.tag-link h4 {
+	color: var(--color-primary);
+}
+.tag-link:hover {
+	background-color: var(--color-primary);
+}
+.tag-link:hover h4 {
+	color: var(--color-light);
+}
+.card {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding: 60px;
+	box-sizing: border-box;
+	background-color: var(--color-dark);
+	border-radius: 24px;
+	width: 920px;
+	backdrop-filter: blur(5px);
+}
