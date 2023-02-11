@@ -107,6 +107,30 @@
 				'Neustrukt is a much needed solution for todays construction industry. However, it needs a lengthy runway to achieve process excellency. We decided to scale down and focus to the core design system and intermediate products.'
 		},
 		{
+			title: 'siradaki',
+			link: 'https://www.siradaki.com.tr',
+			success: false,
+			description:
+				'Siradaki is a consumer electronics rental platform that aimed to provide a more sustainable flexible and affordable way obtain to consumer electronics. We aimed to provide subscripton models that allowed people to experience electronics without the need to purchase them.',
+			tags: [
+				{
+					title: 'DEAD 💀',
+					style: 'color: var(--color-primary);'
+				}
+			],
+			achievements: [
+				'Team formation',
+				'Business model design',
+				'Feasibility study',
+				'Branding assets',
+				'UI/Frontend components',
+				'Investor attraction',
+				'Strategic partnerships'
+			],
+			post_mortem:
+				'Team did not want to work on the operational hurdle of the business and decided to pursue different opportunities on Web3 independent of physical operations like supply chain.'
+		},
+		{
 			title: 'spintop network',
 			success: true,
 			link: 'https://www.spintop.network',
