@@ -32,10 +32,6 @@
 				'E-Liner builds upon the idea of a digital warehouse that solves the inefficiency problems in LTL transports. E-Liner is a software company modeled around a typical platform business; matching solo truck businesses with customers in need of cheap and fast cross-country transportation.',
 			tags: [
 				{
-					title: 'HARD PIVOT 🐛',
-					style: 'color: var(--color-pivot);'
-				},
-				{
 					title: 'DEAD 💀',
 					style: 'color: var(--color-primary);'
 				}
@@ -61,20 +57,20 @@
 				}
 			],
 			achievements: [
-				'ACM technology',
-				'ACM trademarking',
-				'Office space',
-				'Company formation',
-				'First customers'
+				'Acquisition of physical space',
+				'Office modules POC',
+				'Branding, company formation',
+				'Opening party',
+				'Local community'
 			],
 			post_mortem:
-				'Neustrukt is a much needed solution for todays construction industry. However, it needs a lengthy runway to achieve process excellency. We decided to scale down and focus to the core design system and intermediate products.'
+				'Innhof was built on an opporunity instead of a solid market scan. It had disadvantages from the start that we could perhaps overcome. We realised that the local population will not be able to sustain the space we were handed initially.'
 		},
 		{
 			title: 'guuru',
 			success: false,
 			description:
-				'Neustrukt aimed to bring a radical change in house production. Starting from software up to the final product via flexible fabricated modules; Neustrukt allowed for a more efficient and sustainable lifecycle for construction industry.',
+				"Guuru was an initiative to educate and on-board traditional companies to blockchain. We travelled to various events and collected connections all over the country. Although it didn't go far, it's where my blockchain journey started.",
 			tags: [
 				{
 					title: 'DEAD 💀',
@@ -82,14 +78,12 @@
 				}
 			],
 			achievements: [
-				'ACM technology',
-				'ACM trademarking',
-				'Office space',
-				'Company formation',
-				'First customers'
+				'Attended local crypto events',
+				'Networking with local blockchain companies',
+				'Branding, exhibition booth'
 			],
 			post_mortem:
-				'Neustrukt is a much needed solution for todays construction industry. However, it needs a lengthy runway to achieve process excellency. We decided to scale down and focus to the core design system and intermediate products.'
+				'We were able to onboard a few companies to the blockchain space, however, we were not able to scale the business.'
 		},
 		{
 			title: 'neustrukt',
@@ -120,11 +114,89 @@
 				'Spintop is the next generation blockchain gaming hub that aims to utilize the new tools of web3 to offer a comprehensive experience for players, traders and investors. In Spintop, we aspire to guide, discuss and supply through blockchain gaming. The ecosystem is designed as a gaming hub that allows players to exchange their tokens, NFTs, and reviews.',
 			tags: [
 				{
-					title: 'WALKING 👣',
+					title: 'RUNNING 👣',
 					style: 'color: var(--color-walking);'
 				}
 			],
 			achievements: ['120k monthly traffic', '$200m volume on contracts', '20m valuation']
+		},
+		{
+			title: 'txt',
+			success: false,
+			description:
+				'TXT Project is a series of experiments that aims to explore the possibilities of blockchain technology in the art world. It involves automated twitter bots, 128+ stories, and multi-level mechanics running on the Ethereum blockchain.',
+			tags: [
+				{
+					title: 'DEAD 💀',
+					style: 'color: var(--color-primary);'
+				}
+			],
+			achievements: [
+				'GreedyDAO: a user owned on-chain casino',
+				'x0x: decision-based minting experience',
+				'w4ll: a twitter bot that streams user-inputs on-chain'
+			],
+			post_mortem:
+				"None of them were advertised. It started as a project to learn EVM in and out, didn't spend much energy to market it"
+		},
+		{
+			title: 'deadly games',
+			success: false,
+			link: 'https://www.deadly.games',
+			description:
+				'Deadly Games is a series of 7 games, each inspired by one of the Deadly Sins. Main idea was to create a gamified, story-backed minting experience. It involved cutting-edge web3 technologies to create a unique experience for the players on StarkNET.',
+			tags: [
+				{
+					title: 'DEAD 💀',
+					style: 'color: var(--color-primary);'
+				}
+			],
+			achievements: [
+				'Team formation',
+				'Landing page',
+				'Web3 contracts',
+				'Community growth',
+				'Investor atraction'
+			],
+			post_mortem:
+				'Break-up between founders due to emotional responses. Later on, project got discontinued as main team moved on to other projects.'
+		},
+		{
+			title: 'fungible future',
+			success: false,
+			link: 'https://www.fungiblefuture.com',
+			description:
+				'Fungible future offers a new way of liquidifying your most illiquid assets. Underyling protocol provides a trustless framework to share future profits and distributes earnings to token holders.',
+			tags: [
+				{
+					title: 'DEAD 💀',
+					style: 'color: var(--color-primary);'
+				}
+			],
+			achievements: ['Demo application', 'Branding assets', 'Solidity contracts'],
+			post_mortem:
+				"We had problems listing on Opensea with contracts. Without Opensea traffic, project doesn't offer much value to the users."
+		},
+		{
+			title: 'ultrasound',
+			success: false,
+			link: 'https://www.nether.finance',
+			description:
+				'Ultrasound Finance is a decentralized protocol that allows users to stake, lock and vest their native tokens. It is focused on post-merge staking ecosystem, providing a decentralized alternative against the current monopolistic staking providers. ',
+			tags: [
+				{
+					title: 'DEAD 💀',
+					style: 'color: var(--color-primary);'
+				}
+			],
+			achievements: [
+				'UI/Frontend components',
+				'Solidity contracts',
+				'Branding assets',
+				'Social media presence'
+			],
+			post_mortem:
+				"Projects with similar models were struggling. We tried to patch the wrongs of the model but finally decided that it's too experimental for the zeitgeist."
 		},
 		{
 			title: 'decoded labs',
@@ -134,13 +206,41 @@
 				'Decoded Labs is a developer collective committed to safeguard your ventures into the ambigous decentralized world.',
 			tags: [
 				{
-					title: 'INCUBATING 👨‍🍼',
+					title: 'IN PROGRESS 🐝',
 					style: 'color: var(--color-incubating);'
 				}
 			],
-			achievements: ['Branding assets', 'Website, blog', 'First customers'],
+			achievements: ['Branding assets', 'Landing page', 'Developer blog', 'First customers'],
 			post_mortem:
 				'Decoded Labs is still active and currently working on HonestWork; a freelancer marketplace for the decentralized web.'
+		},
+		{
+			title: 'microcolonies',
+			success: true,
+			link: 'https://www.microcolonies.com',
+			description:
+				'"Microcolonies" allows you to simultaneously experience game, art, nature, and finance in the decentralized world. This unique experience will give you the pleasure of a game where nature is the architect, art is the prize, and money is the result.',
+			tags: [
+				{
+					title: 'IN PROGRESS 🐝',
+					style: 'color: var(--color-incubating);'
+				}
+			],
+			achievements: ['Demo application', 'Physical sculpture', 'Branding assets', 'Team formation']
+		},
+		{
+			title: 'honestwork',
+			success: true,
+			link: 'https://www.honestwork.app',
+			description:
+				'HonestWork connects clients with top-rated blockchain experts, including copywriters, developers, and designers.',
+			tags: [
+				{
+					title: 'IN PROGRESS 🐝',
+					style: 'color: var(--color-incubating);'
+				}
+			],
+			achievements: ['Demo application', 'Customer interviews', 'Branding assets', 'Team formation']
 		}
 	];
 </script>
@@ -192,7 +292,11 @@
 			</div>
 			<div style="height:24px" />
 			<p>Scroll to see my hall of shame.</p>
-			<p>Feel free to <span><a href={reach_link}>reach out to me.</a></span></p>
+			<p>
+				Feel free to <span
+					><a href={reach_link} target="_blank" rel="noreferrer">reach out to me.</a></span
+				>
+			</p>
 		</div>
 	</div>
 	<div class="attempts-container">
@@ -214,7 +318,9 @@
 				{#if attempt.link}
 					<div style="height:12px" />
 					<div class="tag-link">
-						<h4>{attempt.link.split('www.')[1]}</h4>
+						<a href={attempt.link} target="_blank" rel="noreferrer"
+							><h4>{attempt.link.split('www.')[1]}</h4></a
+						>
 					</div>
 				{/if}
 				<div style="height:48px" />

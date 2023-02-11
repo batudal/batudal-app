@@ -99,7 +99,7 @@ a:hover {
 	box-sizing: border-box;
 	justify-content: center;
 	align-items: center;
-	background-color: var(--color-lightish);
+	background-color: var(--color-dark);
 	border-radius: 12px;
 	width: fit-content;
 }
