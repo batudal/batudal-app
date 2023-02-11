@@ -203,7 +203,7 @@
 	}
 	.background-container img {
 		width: 100%;
-		height: 800px;
+		height: calc(100vh - 64px);
 		object-fit: scale-down;
 		margin-right: -240px;
 	}
