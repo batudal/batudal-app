@@ -50,6 +50,20 @@
 				'Stakeholders had completely different visions for the product. It went unto being a hardware project for 5+ years, seeking a solution via hybrid-fuel technology for the transition period of truck transportation.'
 		},
 		{
+			title: 'spintop network',
+			success: true,
+			link: 'https://www.spintop.network',
+			description:
+				'Spintop is the next generation blockchain gaming hub that aims to utilize the new tools of web3 to offer a comprehensive experience for players, traders and investors. In Spintop, we aspire to guide, discuss and supply through blockchain gaming. The ecosystem is designed as a gaming hub that allows players to exchange their tokens, NFTs, and reviews.',
+			tags: [
+				{
+					title: 'WALKING 👣',
+					style: 'color: var(--color-walking);'
+				}
+			],
+			achievements: ['120k monthly traffic', '$200m volume on contracts', '20m valuation']
+		},
+		{
 			title: 'decoded labs',
 			success: true,
 			link: 'https://www.decoded-labs.com',
@@ -71,7 +85,7 @@
 <main>
 	<div class="background-wrapper">
 		<div class="background-container">
-			<img src={`${assets}/takezo.png`} alt="takezo" />
+			<img src={`${assets}/takezo.webp`} alt="takezo" />
 		</div>
 	</div>
 
@@ -149,16 +163,19 @@
 						</div>
 					</div>
 				{/each}
-				<div style="height:48px" />
-				<h3>POST-MORTEM</h3>
-				<div style="height:16px" />
-				<p>{attempt.post_mortem}</p>
+				{#if attempt.post_mortem}
+					<div style="height:48px" />
+					<h3>POST-MORTEM</h3>
+					<div style="height:16px" />
+					<p>{attempt.post_mortem}</p>
+				{/if}
 			</div>
 			{#if i !== attempts.length - 1}
 				<div style="height:48px" />
 			{/if}
 		{/each}
 	</div>
+	<div style="height:48px" />
 </main>
 
 <style>
