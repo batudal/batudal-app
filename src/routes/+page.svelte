@@ -354,11 +354,11 @@
 				{/if}
 				<div class="divider-large" />
 				<h3>ABSTRACT</h3>
-				<div style="height:16px" />
+				<div class="divider-small" />
 				<p>{attempt.description}</p>
 				<div class="divider-large" />
 				<h3>PROGRESS</h3>
-				<div style="height:16px" />
+				<div class="divider-small" />
 				{#each attempt.achievements as achievement}
 					<div class="skills-container">
 						<div class="skill">
@@ -371,8 +371,11 @@
 				{#if attempt.post_mortem}
 					<div class="divider-large" />
 					<h3>POST-MORTEM</h3>
-					<div style="height:16px" />
+					<div class="divider-small" />
 					<p>{attempt.post_mortem}</p>
+					{#if i !== attempts.length - 1}
+						<div class="divider-small" />
+					{/if}
 				{/if}
 			</div>
 			{#if i !== attempts.length - 1}
@@ -471,6 +474,9 @@
 	.divider-large {
 		height: 48px;
 	}
+	.divider-small {
+		height: 16px;
+	}
 	@media only screen and (max-width: 960px) {
 		.card-header {
 			flex-wrap: wrap;
@@ -489,6 +495,9 @@
 		}
 		.divider-large {
 			height: 32px;
+		}
+		.divider-small {
+			height: 12px;
 		}
 	}
 </style>
