@@ -47,6 +47,8 @@
 		},
 		{
 			title: 'innhof',
+			link: 'https://decoded-files.fra1.cdn.digitaloceanspaces.com/takezo%2Finnhof.pdf',
+			link_tag: 'brochure/innhof',
 			success: false,
 			description:
 				"We envision becoming the leading worldwide community of innovators, where individuals and businesses of all sizes cocreate a better future. Our joint efforts are focused on equipping InnHof's global members with enabling tailor- made programs & services, modern technologies in development and the most inspiring spaces to work at, thus allowing the collaborative creation of brand-new values at an increasing pace.",
@@ -87,6 +89,8 @@
 		},
 		{
 			title: 'neustrukt',
+			link: 'https://github.com/takez0o/neustrukt',
+			link_tag: 'github/neustrukt',
 			success: false,
 			description:
 				'Neustrukt aimed to bring a radical change in house production. Starting from software up to the final product via flexible fabricated modules; Neustrukt allowed for a more efficient and sustainable lifecycle for construction industry.',
@@ -165,6 +169,8 @@
 		},
 		{
 			title: 'deadly games',
+			link: 'https://github.com/deadly-games',
+			link_tag: 'github/deadly-games',
 			success: false,
 			description:
 				'Deadly Games is a series of 7 games, each inspired by one of the Deadly Sins. Main idea was to create a gamified, story-backed minting experience. It involved cutting-edge web3 technologies to create a unique experience for the players on StarkNET.',
@@ -204,10 +210,12 @@
 				"We had problems listing on Opensea with contracts. Without Opensea traffic, project doesn't offer much value to the users."
 		},
 		{
-			title: 'ultrasound',
+			title: 'nether finance',
 			success: false,
+			link: 'https://www.nether.finance',
+			link_tag: 'nether.finance',
 			description:
-				'Ultrasound Finance is a decentralized protocol that allows users to stake, lock and vest their native tokens. It is focused on post-merge staking ecosystem, providing a decentralized alternative against the current monopolistic staking providers. ',
+				'Nether Finance is a decentralized protocol that allows users to stake, lock and vest their native tokens. It is focused on post-merge staking ecosystem, providing a decentralized alternative against the current monopolistic staking providers. ',
 			tags: [
 				{
 					title: 'DEAD 💀',
