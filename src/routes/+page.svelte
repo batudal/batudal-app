@@ -290,7 +290,6 @@
 			<img src={`${assets}/takezo.webp`} alt="takezo" />
 		</div>
 	</div>
-
 	<div class="hero-container">
 		<div class="content-container">
 			<h1><span>Hi, </span>I'm Batu.</h1>
@@ -353,11 +352,11 @@
 						<a href={attempt.link} target="_blank" rel="noreferrer"><h4>{attempt.link_tag}</h4></a>
 					</div>
 				{/if}
-				<div style="height:48px" />
+				<div class="divider-large" />
 				<h3>ABSTRACT</h3>
 				<div style="height:16px" />
 				<p>{attempt.description}</p>
-				<div style="height:48px" />
+				<div class="divider-large" />
 				<h3>PROGRESS</h3>
 				<div style="height:16px" />
 				{#each attempt.achievements as achievement}
@@ -370,18 +369,18 @@
 					</div>
 				{/each}
 				{#if attempt.post_mortem}
-					<div style="height:48px" />
+					<div class="divider-large" />
 					<h3>POST-MORTEM</h3>
 					<div style="height:16px" />
 					<p>{attempt.post_mortem}</p>
 				{/if}
 			</div>
 			{#if i !== attempts.length - 1}
-				<div style="height:48px" />
+				<div class="divider-large" />
 			{/if}
 		{/each}
 	</div>
-	<div style="height:48px" />
+	<div class="divider-large" />
 </main>
 
 <style>
@@ -402,10 +401,11 @@
 		align-items: center;
 	}
 	.background-container {
-		width: 920px;
+		max-width: 920px;
 		display: flex;
 		flex-direction: row;
 		justify-content: flex-end;
+		/* overflow-x: hidden; */
 	}
 	.background-container img {
 		width: 100%;
@@ -422,7 +422,8 @@
 		align-items: center;
 	}
 	.content-container {
-		width: 920px;
+		max-width: 920px;
+		width: 100%;
 		display: flex;
 		flex-direction: column;
 		justify-content: flex-start;
@@ -433,6 +434,7 @@
 		justify-content: flex-start;
 		align-items: flex-start;
 		margin-left: 12px;
+		width: 100%;
 	}
 	.skill {
 		display: flex;
@@ -466,6 +468,27 @@
 		justify-content: flex-start;
 		align-items: center;
 	}
+	.divider-large {
+		height: 48px;
+	}
 	@media only screen and (max-width: 960px) {
+		.card-header {
+			flex-wrap: wrap;
+			align-items: flex-start;
+			gap: 8px;
+		}
+		.status > img {
+			width: 57px;
+		}
+		.background-container {
+			margin-right: 160px;
+			width: max-content;
+		}
+		.hero-container {
+			width: 95%;
+		}
+		.divider-large {
+			height: 32px;
+		}
 	}
 </style>
