@@ -466,4 +466,6 @@
 		justify-content: flex-start;
 		align-items: center;
 	}
+	@media only screen and (max-width: 960px) {
+	}
 </style>
