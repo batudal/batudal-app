@@ -108,7 +108,6 @@
 		},
 		{
 			title: 'siradaki',
-			link: 'https://www.siradaki.com.tr',
 			success: false,
 			description:
 				'Siradaki is a consumer electronics rental platform that aimed to provide a more sustainable flexible and affordable way obtain to consumer electronics. We aimed to provide subscripton models that allowed people to experience electronics without the need to purchase them.',
@@ -134,6 +133,7 @@
 			title: 'spintop network',
 			success: true,
 			link: 'https://www.spintop.network',
+			link_tag: 'spintop.network',
 			description:
 				'Spintop is the next generation blockchain gaming hub that aims to utilize the new tools of web3 to offer a comprehensive experience for players, traders and investors. In Spintop, we aspire to guide, discuss and supply through blockchain gaming. The ecosystem is designed as a gaming hub that allows players to exchange their tokens, NFTs, and reviews.',
 			tags: [
@@ -166,7 +166,6 @@
 		{
 			title: 'deadly games',
 			success: false,
-			link: 'https://www.deadly.games',
 			description:
 				'Deadly Games is a series of 7 games, each inspired by one of the Deadly Sins. Main idea was to create a gamified, story-backed minting experience. It involved cutting-edge web3 technologies to create a unique experience for the players on StarkNET.',
 			tags: [
@@ -178,7 +177,9 @@
 			achievements: [
 				'Team formation',
 				'Landing page',
-				'Web3 contracts',
+				'Solidity contracts',
+				'Cairo contracts',
+				'Demo game',
 				'Community growth',
 				'Investor atraction'
 			],
@@ -189,6 +190,7 @@
 			title: 'fungible future',
 			success: false,
 			link: 'https://www.fungiblefuture.com',
+			link_tag: 'fungiblefuture.com',
 			description:
 				'Fungible future offers a new way of liquidifying your most illiquid assets. Underyling protocol provides a trustless framework to share future profits and distributes earnings to token holders.',
 			tags: [
@@ -204,7 +206,6 @@
 		{
 			title: 'ultrasound',
 			success: false,
-			link: 'https://www.nether.finance',
 			description:
 				'Ultrasound Finance is a decentralized protocol that allows users to stake, lock and vest their native tokens. It is focused on post-merge staking ecosystem, providing a decentralized alternative against the current monopolistic staking providers. ',
 			tags: [
@@ -226,6 +227,7 @@
 			title: 'decoded labs',
 			success: true,
 			link: 'https://www.decoded-labs.com',
+			link_tag: 'decoded-labs.com',
 			description:
 				'Decoded Labs is a developer collective committed to safeguard your ventures into the ambigous decentralized world.',
 			tags: [
@@ -234,14 +236,13 @@
 					style: 'color: var(--color-incubating);'
 				}
 			],
-			achievements: ['Branding assets', 'Landing page', 'Developer blog', 'First customers'],
-			post_mortem:
-				'Decoded Labs is still active and currently working on HonestWork; a freelancer marketplace for the decentralized web.'
+			achievements: ['Branding assets', 'Landing page', 'Developer blog', 'First customers']
 		},
 		{
 			title: 'microcolonies',
 			success: true,
 			link: 'https://www.microcolonies.com',
+			link_tag: 'microcolonies.com',
 			description:
 				'"Microcolonies" allows you to simultaneously experience game, art, nature, and finance in the decentralized world. This unique experience will give you the pleasure of a game where nature is the architect, art is the prize, and money is the result.',
 			tags: [
@@ -256,6 +257,7 @@
 			title: 'honestwork',
 			success: true,
 			link: 'https://www.honestwork.app',
+			link_tag: 'honestwork.app',
 			description:
 				'HonestWork connects clients with top-rated blockchain experts, including copywriters, developers, and designers.',
 			tags: [
@@ -264,7 +266,13 @@
 					style: 'color: var(--color-incubating);'
 				}
 			],
-			achievements: ['Demo application', 'Customer interviews', 'Branding assets', 'Team formation']
+			achievements: [
+				'Demo application',
+				'Customer interviews',
+				'Branding assets',
+				'Team formation',
+				'Solidity contracts'
+			]
 		}
 	];
 </script>
@@ -342,9 +350,7 @@
 				{#if attempt.link}
 					<div style="height:12px" />
 					<div class="tag-link">
-						<a href={attempt.link} target="_blank" rel="noreferrer"
-							><h4>{attempt.link.split('www.')[1]}</h4></a
-						>
+						<a href={attempt.link} target="_blank" rel="noreferrer"><h4>{attempt.link_tag}</h4></a>
 					</div>
 				{/if}
 				<div style="height:48px" />

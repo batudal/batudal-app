@@ -1,7 +1,7 @@
 :root {
 	--color-bg: #313130;
 	--color-light: #ffffff;
-	--color-dark: rgba(0, 0, 0, 0.6);
+	--color-dark: rgba(0, 0, 0, 0.5);
 	--color-lightish: rgba(255, 255, 255, 0.1);
 
 	--color-primary: #f23153;
