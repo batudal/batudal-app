@@ -438,6 +438,7 @@
 		display: flex;
 		flex-direction: column;
 		justify-content: flex-start;
+		margin-top: 64px;
 	}
 	.skills-container {
 		display: flex;
