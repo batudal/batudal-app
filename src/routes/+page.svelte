@@ -2,6 +2,7 @@
 	import { assets } from '$app/paths';
 
 	let reach_link = 'https://twitter.com/takez0_o';
+
 	let skills = [
 		{
 			name: 'Ideation',
@@ -283,6 +284,7 @@
 			]
 		}
 	];
+	$: attempts_reversed = attempts.slice().reverse();
 </script>
 
 <svelte:head>
@@ -339,7 +341,7 @@
 		</div>
 	</div>
 	<div class="attempts-container">
-		{#each attempts as attempt, i}
+		{#each attempts_reversed as attempt, i}
 			<div class="card">
 				<div class="card-header">
 					<h2>{attempt.title}</h2>
