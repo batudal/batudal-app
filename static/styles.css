@@ -1,8 +1,8 @@
 :root {
-	--color-bg: #313130;
+	--color-bg: #161616;
 	--color-light: #ffffff;
 	--color-dark: rgba(0, 0, 0, 0.5);
-	--color-lightish: rgba(255, 255, 255, 0.1);
+	--color-lightish: rgba(255, 255, 255, 0.05);
 
 	--color-primary: #f23153;
 	--color-pivot: #7a31f2;
@@ -95,11 +95,11 @@ a:hover {
 .tag {
 	display: flex;
 	flex-direction: row;
-	padding: 12px 24px;
+	padding: 8px 12px ;
 	box-sizing: border-box;
 	justify-content: center;
 	align-items: center;
-	background-color: var(--color-dark);
+	background-color: var(--color-lightish);
 	border-radius: 12px;
 	width: fit-content;
 }
