@@ -166,7 +166,7 @@
 				'w4ll: a twitter bot that streams user-inputs on-chain'
 			],
 			post_mortem:
-				"None of them were advertised. It started as a project to learn EVM in and out, didn't spend much energy to market it"
+				"None of the mini-projects were actively marketed. It started as a project to learn EVM in and out, didn't spend much energy to market it. Later on some of the code was used as basis for Deadly Games."
 		},
 		{
 			title: 'deadly games',
@@ -208,7 +208,7 @@
 			],
 			achievements: ['Demo application', 'Branding assets', 'Solidity contracts'],
 			post_mortem:
-				"We had problems listing on Opensea with contracts. Without Opensea traffic, project doesn't offer much value to the users."
+				'Only rushed a POC. A fully implemented version would include listing on popular marketplaces like Opensea.'
 		},
 		{
 			title: 'nether finance',
