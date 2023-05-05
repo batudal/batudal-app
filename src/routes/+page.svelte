@@ -380,12 +380,14 @@
 				{/each}
 				{#if attempt.post_mortem}
 					<div class="divider-large" />
-					<h3>POST-MORTEM</h3>
-					<div class="divider-small" />
-					<p>{attempt.post_mortem}</p>
-					{#if i !== attempts.length - 1}
+					<div class="post-mortem-container">
+						<h3>POST-MORTEM</h3>
 						<div class="divider-small" />
-					{/if}
+						<p>{attempt.post_mortem}</p>
+						{#if i !== attempts.length - 1}
+							<div class="divider-small" />
+						{/if}
+					</div>
 				{/if}
 			</div>
 			{#if i !== attempts.length - 1}
@@ -401,6 +403,16 @@
 		display: flex;
 		flex-direction: column;
 		align-items: center;
+	}
+	.post-mortem-container {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		padding: 20px;
+		box-sizing: border-box;
+		background-color: var(--color-lightish);
+		border-radius: 12px;
+		backdrop-filter: blur(5px);
 	}
 	.background-wrapper {
 		position: fixed;
