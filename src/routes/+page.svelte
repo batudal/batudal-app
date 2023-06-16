@@ -135,7 +135,7 @@
 				'Team did not want to work on the operational hurdle of the business and decided to pursue different opportunities on Web3 independent of physical operations like supply chain.'
 		},
 		{
-			title: 'spintop network',
+			title: 'spintop',
 			success: true,
 			link: 'https://www.spintop.network',
 			link_tag: 'spintop.network',
@@ -202,13 +202,13 @@
 				'Fungible future offers a new way of liquidifying your most illiquid assets. Underyling protocol provides a trustless framework to share future profits and distributes earnings to token holders.',
 			tags: [
 				{
-					title: 'DEAD 💀',
+					title: 'PURGATORY 🪦',
 					style: 'color: var(--color-primary);'
 				}
 			],
 			achievements: ['Demo application', 'Branding assets', 'Solidity contracts'],
 			post_mortem:
-				'Only rushed a POC. A fully implemented version would include listing on popular marketplaces like Opensea.'
+				'Only rushed a POC for Opensea integration. Later on, we decided to focus on other projects and put this on hold. We might revisit this in the future.'
 		},
 		{
 			title: 'nether finance',
@@ -279,9 +279,24 @@
 				'Demo application',
 				'Customer interviews',
 				'Branding assets',
-				'Team formation',
-				'Solidity contracts'
+				'Alpha version',
+				'First customers'
 			]
+		},
+		{
+			title: 'hyppo',
+			success: true,
+			link: 'https://hyppo.io',
+			link_tag: 'hyppo.io',
+			description:
+				'Hyppo helps you find and validate your next business model. You can explore new business models and use the test tool to validate your idea.',
+			tags: [
+				{
+					title: 'IN PROGRESS 🐝',
+					style: 'color: var(--color-incubating);'
+				}
+			],
+			achievements: ['High-fidelity prototype']
 		}
 	];
 	$: attempts_reversed = attempts.slice().reverse();
