@@ -234,14 +234,14 @@
 		},
 		{
 			title: 'decoded labs',
-			success: true,
+			success: false,
 			link: 'https://www.decoded-labs.com',
 			link_tag: 'decoded-labs.com',
 			description:
 				'Decoded Labs is a developer collective committed to safeguard your ventures into the ambigous decentralized world.',
 			tags: [
 				{
-					title: 'IN PROGRESS 🐝',
+					title: 'DEAD 💀',
 					style: 'color: var(--color-incubating);'
 				}
 			],
