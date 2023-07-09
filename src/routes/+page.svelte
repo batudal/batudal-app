@@ -1,7 +1,7 @@
 <script lang="ts">
 	import { assets } from '$app/paths';
 
-	let reach_link = 'https://twitter.com/takez0_o';
+	let reach_link = 'https://twitter.com/batudal';
 
 	let skills = [
 		{
