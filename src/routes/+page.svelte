@@ -242,7 +242,7 @@
 			tags: [
 				{
 					title: 'DEAD 💀',
-					style: 'color: var(--color-incubating);'
+					style: 'color: var(--color-primary);'
 				}
 			],
 			achievements: ['Branding assets', 'Landing page', 'Developer blog', 'First customers']
@@ -296,7 +296,7 @@
 					style: 'color: var(--color-incubating);'
 				}
 			],
-			achievements: ['High-fidelity prototype']
+			achievements: ['High-fidelity prototype', 'MVP web application', 'Launch planning']
 		}
 	];
 	$: attempts_reversed = attempts.slice().reverse();
