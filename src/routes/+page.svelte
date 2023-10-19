@@ -143,7 +143,7 @@
 				'Spintop is the next generation blockchain gaming hub that aims to utilize the new tools of web3 to offer a comprehensive experience for players, traders and investors. In Spintop, we aspire to guide, discuss and supply through blockchain gaming. The ecosystem is designed as a gaming hub that allows players to exchange their tokens, NFTs, and reviews.',
 			tags: [
 				{
-					title: 'RUNNING 👣',
+					title: 'RUNNING 🔋',
 					style: 'color: var(--color-walking);'
 				}
 			],
@@ -202,7 +202,7 @@
 				'Fungible future offers a new way of liquidifying your most illiquid assets. Underyling protocol provides a trustless framework to share future profits and distributes earnings to token holders.',
 			tags: [
 				{
-					title: 'PURGATORY 🪦',
+					title: 'DEAD 💀',
 					style: 'color: var(--color-primary);'
 				}
 			],
@@ -284,19 +284,41 @@
 			]
 		},
 		{
-			title: 'hyppo',
+			title: 'de-risk',
 			success: true,
-			link: 'https://hyppo.io',
-			link_tag: 'hyppo.io',
+			link: 'https://de-risk.app',
+			link_tag: 'de-risk.app',
 			description:
-				'Hyppo helps you find and validate your next business model. You can explore new business models and use the test tool to validate your idea.',
+				'Empowering visionaries working on early-stage projects with a risk management tool that tames doubt and fuels breakthroughs.',
 			tags: [
 				{
 					title: 'IN PROGRESS 🐝',
 					style: 'color: var(--color-incubating);'
 				}
 			],
-			achievements: ['High-fidelity prototype', 'MVP web application', 'Launch planning']
+			achievements: ['High-fidelity prototype', 'Landing page', 'Launch planning', 'Beta-list']
+		},
+		{
+			title: 'cakebot',
+			success: true,
+			link: 'https://cakebot.io',
+			link_tag: 'cakebot.io',
+			description:
+				"Access to DeFi is now a piece of cake with Cakebot's seamless trading and farming interface. Trade effortlessly, earn yield and never miss an opportunity with our free Telegram bot for Pancakeswap.",
+			tags: [
+				{
+					title: 'RUNNING 🔋',
+					style: 'color: var(--color-walking);'
+				}
+			],
+			achievements: [
+				'Trading bot',
+				'Landing page',
+				'Rewards Dashboard',
+				'Token Launch',
+				'Launch marketing',
+				'Analytics dashboard'
+			]
 		}
 	];
 	$: attempts_reversed = attempts.slice().reverse();
