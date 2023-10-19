@@ -314,8 +314,8 @@
 			achievements: [
 				'Trading bot',
 				'Landing page',
-				'Rewards Dashboard',
-				'Token Launch',
+				'Rewards dashboard',
+				'Token launch',
 				'Launch marketing',
 				'Analytics dashboard'
 			]
