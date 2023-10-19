@@ -245,7 +245,9 @@
 					style: 'color: var(--color-primary);'
 				}
 			],
-			achievements: ['Branding assets', 'Landing page', 'Developer blog', 'First customers']
+			achievements: ['Branding assets', 'Landing page', 'Developer blog', 'First customers'],
+			post_mortem:
+				'Team members decided service business is not their cup of tea. Moved on to a new startup project, HonestWork.'
 		},
 		{
 			title: 'microcolonies',
