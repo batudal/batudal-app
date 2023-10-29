@@ -143,7 +143,7 @@
 				'Spintop is the next generation blockchain gaming hub that aims to utilize the new tools of web3 to offer a comprehensive experience for players, traders and investors. In Spintop, we aspire to guide, discuss and supply through blockchain gaming. The ecosystem is designed as a gaming hub that allows players to exchange their tokens, NFTs, and reviews.',
 			tags: [
 				{
-					title: 'RUNNING 🔋',
+					title: 'VIBING 🐸',
 					style: 'color: var(--color-walking);'
 				}
 			],
@@ -170,8 +170,8 @@
 		},
 		{
 			title: 'deadly games',
-			link: 'https://github.com/deadly-games',
-			link_tag: 'github/deadly-games',
+			link: 'https://github.com/deadly-games-starknet',
+			link_tag: 'github/deadly-games-starknet',
 			success: false,
 			description:
 				'Deadly Games is a series of 7 games, each inspired by one of the Deadly Sins. Main idea was to create a gamified, story-backed minting experience. It involved cutting-edge web3 technologies to create a unique experience for the players on StarkNET.',
@@ -309,17 +309,16 @@
 				"Access to DeFi is now a piece of cake with Cakebot's seamless trading and farming interface. Trade effortlessly, earn yield and never miss an opportunity with our free Telegram bot for Pancakeswap.",
 			tags: [
 				{
-					title: 'RUNNING 🔋',
+					title: 'VIBING 🐸',
 					style: 'color: var(--color-walking);'
 				}
 			],
 			achievements: [
-				'Trading bot',
 				'Landing page',
 				'Rewards dashboard',
-				'Token launch',
-				'Launch marketing',
-				'Analytics dashboard'
+				'Analytics dashboard',
+				'Token + bot launch',
+				'$200k mcap + $40k revenue'
 			]
 		}
 	];
@@ -381,7 +380,7 @@
 	</div>
 	<div class="attempts-container">
 		{#each attempts_reversed as attempt, i}
-			<div class="card">
+			<div id={attempt.title} class="card">
 				<div class="card-header">
 					<h2>{attempt.title}</h2>
 					<div class="tags">
