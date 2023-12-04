@@ -318,7 +318,7 @@
 				'Rewards dashboard',
 				'Analytics dashboard',
 				'Token + bot launch',
-				'$200k mcap + $40k revenue'
+				'$4m mcap + $200k revenue'
 			]
 		}
 	];
@@ -371,9 +371,16 @@
 			</div>
 			<div style="height:24px" />
 			<p>Scroll to see my hall of shame.</p>
+			<br />
 			<p>
 				Feel free to <span
-					><a href={reach_link} target="_blank" rel="noreferrer">reach out to me.</a></span
+					><a href={reach_link} target="_blank" rel="noreferrer">reach out to me,</a></span
+				>
+				or
+				<span
+					><a href="https://github.com/batudal" target="_blank" rel="noreferrer"
+						>checkout my github.</a
+					></span
 				>
 			</p>
 		</div>
