@@ -341,7 +341,7 @@
 		},
 		{
 			title: 'de-risk',
-			success: true,
+			success: false,
 			link: 'https://de-risk.app',
 			link_tag: 'de-risk.app',
 			description:
@@ -352,11 +352,13 @@
 					style: 'color: var(--color-pivot);'
 				},
 				{
-					title: 'IN PROGRESS 🐝',
-					style: 'color: var(--color-incubating);'
+					title: 'DEAD 💀',
+					style: 'color: var(--color-primary);'
 				}
 			],
-			achievements: ['High-fidelity prototype', 'Landing page', 'Launch planning', 'Beta-list']
+			achievements: ['High-fidelity prototype', 'Landing page', 'Launch planning', 'Beta-list'],
+			post_mortem:
+				"Unvalidated idea. I didn't have the time to validate the idea and the market so we decided to put it on hold. We might revisit this in the future."
 		},
 		{
 			title: 'cakebot',
@@ -384,7 +386,7 @@
 			]
 		},
 		{
-			title: 'wendy.fi',
+			title: 'wendy',
 			success: true,
 			link: 'https://wendy.fi',
 			link_tag: 'wendy.fi',
@@ -400,7 +402,26 @@
 					style: 'color: var(--color-incubating);'
 				}
 			],
-			achievements: ['Core bribe mechanism', 'Pitch deck']
+			achievements: ['Bribe mechanism', 'Pitch deck', 'Team formation']
+		},
+		{
+			title: 'magicbooth',
+			success: true,
+			link: 'https://magicbooth.ai',
+			link_tag: 'magicbooth.ai',
+			description:
+				'MagicBooth is a simple, free-to-use face-swap service. It allows you to swap your face with any photo you like. Just upload a photo of yourself and the photo you want your face to be swapped in and let it cook!',
+			tags: [
+				{
+					title: 'AI',
+					style: 'color: var(--color-pivot);'
+				},
+				{
+					title: 'IN PROGRESS 🐝',
+					style: 'color: var(--color-incubating);'
+				}
+			],
+			achievements: ['AI setup', 'Proof of concept', 'UI/UX design']
 		}
 	];
 	$: attempts_reversed = attempts.slice().reverse();
@@ -441,13 +462,13 @@
 			<div style="height:24px" />
 			<div class="status">
 				<div class="tag">
-					<h4><span>{attempts.length} </span>ATTEMPTS</h4>
+					<h4><span>{attempts.length} </span>PROJECTS</h4>
 				</div>
 				<div style="width:20px" />
 				<img src={`${assets}/icons/arrow.svg`} alt="arrow" />
 				<div style="width:20px" />
 				<div class="tag">
-					<h4><span>{attempts.filter((a) => a.success == false).length} </span>FAILURES</h4>
+					<h4><span>{attempts.filter((a) => a.success == false).length} </span>FAILS</h4>
 				</div>
 			</div>
 			<div style="height:24px" />
@@ -571,6 +592,8 @@
 		flex-direction: column;
 		justify-content: center;
 		align-items: center;
+		box-sizing: border-box;
+		padding: 0 24px;
 	}
 	.content-container {
 		max-width: 920px;
