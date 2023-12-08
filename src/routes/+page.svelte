@@ -25,6 +25,7 @@
 			icon: 'icons/softskills.svg'
 		}
 	];
+
 	let attempts = [
 		{
 			title: 'e-liner',
@@ -32,6 +33,10 @@
 			description:
 				'E-Liner builds upon the idea of a digital warehouse that solves the inefficiency problems in LTL transports. E-Liner is a software company modeled around a typical platform business; matching solo truck businesses with customers in need of cheap and fast cross-country transportation.',
 			tags: [
+				{
+					title: 'PLATFORM',
+					style: 'color: var(--color-pivot);'
+				},
 				{
 					title: 'DEAD 💀',
 					style: 'color: var(--color-primary);'
@@ -55,6 +60,10 @@
 				"We envision becoming the leading worldwide community of innovators, where individuals and businesses of all sizes cocreate a better future. Our joint efforts are focused on equipping InnHof's global members with enabling tailor- made programs & services, modern technologies in development and the most inspiring spaces to work at, thus allowing the collaborative creation of brand-new values at an increasing pace.",
 			tags: [
 				{
+					title: 'CO-WORKING',
+					style: 'color: var(--color-pivot);'
+				},
+				{
 					title: 'DEAD 💀',
 					style: 'color: var(--color-primary);'
 				}
@@ -75,6 +84,10 @@
 			description:
 				"Guuru was an initiative to educate and on-board traditional companies to blockchain. We travelled to various events and collected connections all over the country. Although it didn't go far, it's where my blockchain journey started.",
 			tags: [
+				{
+					title: 'CONSULTATION',
+					style: 'color: var(--color-pivot);'
+				},
 				{
 					title: 'DEAD 💀',
 					style: 'color: var(--color-primary);'
@@ -97,6 +110,10 @@
 				'Neustrukt aimed to bring a radical change in house production. Starting from software up to the final product via flexible fabricated modules; Neustrukt allowed for a more efficient and sustainable lifecycle for construction industry.',
 			tags: [
 				{
+					title: 'MODULAR CONSTRUCTION',
+					style: 'color: var(--color-pivot);'
+				},
+				{
 					title: 'DEAD 💀',
 					style: 'color: var(--color-primary);'
 				}
@@ -117,6 +134,10 @@
 			description:
 				'Siradaki is a consumer electronics rental platform that aimed to provide a more sustainable flexible and affordable way obtain to consumer electronics. We aimed to provide subscripton models that allowed people to experience electronics without the need to purchase them.',
 			tags: [
+				{
+					title: 'CONSUMER RENTAL',
+					style: 'color: var(--color-pivot);'
+				},
 				{
 					title: 'DEAD 💀',
 					style: 'color: var(--color-primary);'
@@ -143,6 +164,10 @@
 				'Spintop is the next generation blockchain gaming hub that aims to utilize the new tools of web3 to offer a comprehensive experience for players, traders and investors. In Spintop, we aspire to guide, discuss and supply through blockchain gaming. The ecosystem is designed as a gaming hub that allows players to exchange their tokens, NFTs, and reviews.',
 			tags: [
 				{
+					title: 'AGGREGATOR',
+					style: 'color: var(--color-pivot);'
+				},
+				{
 					title: 'VIBING 🐸',
 					style: 'color: var(--color-walking);'
 				}
@@ -155,6 +180,10 @@
 			description:
 				'TXT Project is a series of experiments that aims to explore the possibilities of blockchain technology in the art world. It involves automated twitter bots, 128+ stories, and multi-level mechanics running on the Ethereum blockchain.',
 			tags: [
+				{
+					title: 'SIDE PROJECT',
+					style: 'color: var(--color-pivot);'
+				},
 				{
 					title: 'DEAD 💀',
 					style: 'color: var(--color-primary);'
@@ -176,6 +205,10 @@
 			description:
 				'Deadly Games is a series of 7 games, each inspired by one of the Deadly Sins. Main idea was to create a gamified, story-backed minting experience. It involved cutting-edge web3 technologies to create a unique experience for the players on StarkNET.',
 			tags: [
+				{
+					title: 'NFT GAME',
+					style: 'color: var(--color-pivot);'
+				},
 				{
 					title: 'DEAD 💀',
 					style: 'color: var(--color-primary);'
@@ -202,6 +235,10 @@
 				'Fungible future offers a new way of liquidifying your most illiquid assets. Underyling protocol provides a trustless framework to share future profits and distributes earnings to token holders.',
 			tags: [
 				{
+					title: 'PROTOCOL',
+					style: 'color: var(--color-pivot);'
+				},
+				{
 					title: 'DEAD 💀',
 					style: 'color: var(--color-primary);'
 				}
@@ -218,6 +255,10 @@
 			description:
 				'Nether Finance is a decentralized protocol that allows users to stake, lock and vest their native tokens. It is focused on post-merge staking ecosystem, providing a decentralized alternative against the current monopolistic staking providers. ',
 			tags: [
+				{
+					title: 'PROTOCOL',
+					style: 'color: var(--color-pivot);'
+				},
 				{
 					title: 'DEAD 💀',
 					style: 'color: var(--color-primary);'
@@ -241,6 +282,10 @@
 				'Decoded Labs is a developer collective committed to safeguard your ventures into the ambigous decentralized world.',
 			tags: [
 				{
+					title: 'AGENCY',
+					style: 'color: var(--color-pivot);'
+				},
+				{
 					title: 'DEAD 💀',
 					style: 'color: var(--color-primary);'
 				}
@@ -258,20 +303,30 @@
 				'"Microcolonies" allows you to simultaneously experience game, art, nature, and finance in the decentralized world. This unique experience will give you the pleasure of a game where nature is the architect, art is the prize, and money is the result.',
 			tags: [
 				{
-					title: 'IN PROGRESS 🐝',
-					style: 'color: var(--color-incubating);'
+					title: 'NFT GAME',
+					style: 'color: var(--color-pivot);'
+				},
+				{
+					title: 'DEAD 💀',
+					style: 'color: var(--color-primary);'
 				}
 			],
-			achievements: ['Demo application', 'Physical sculpture', 'Branding assets', 'Team formation']
+			achievements: ['Demo application', 'Physical sculpture', 'Branding assets', 'Team formation'],
+			post_mortem:
+				"Team wasn't cross-functional so couldn't come up with a cohesive plan to market and grow the brand. Most of the development is done so it's possible we revisit the project in the future."
 		},
 		{
 			title: 'honestwork',
-			success: true,
+			success: false,
 			link: 'https://www.honestwork.app',
 			link_tag: 'honestwork.app',
 			description:
 				'HonestWork connects clients with top-rated blockchain experts, including copywriters, developers, and designers.',
 			tags: [
+				{
+					title: 'PLATFORM',
+					style: 'color: var(--color-pivot);'
+				},
 				{
 					title: 'IN PROGRESS 🐝',
 					style: 'color: var(--color-incubating);'
@@ -281,8 +336,7 @@
 				'Demo application',
 				'Customer interviews',
 				'Branding assets',
-				'Alpha version',
-				'First customers'
+				'Pivot to freemium model'
 			]
 		},
 		{
@@ -293,6 +347,10 @@
 			description:
 				'Empowering visionaries working on early-stage projects with a risk management tool that tames doubt and fuels breakthroughs.',
 			tags: [
+				{
+					title: 'SAAS',
+					style: 'color: var(--color-pivot);'
+				},
 				{
 					title: 'IN PROGRESS 🐝',
 					style: 'color: var(--color-incubating);'
@@ -309,6 +367,10 @@
 				"Access to DeFi is now a piece of cake with Cakebot's seamless trading and farming interface. Trade effortlessly, earn yield and never miss an opportunity with our free Telegram bot for Pancakeswap.",
 			tags: [
 				{
+					title: 'BOT',
+					style: 'color: var(--color-pivot);'
+				},
+				{
 					title: 'VIBING 🐸',
 					style: 'color: var(--color-walking);'
 				}
@@ -320,6 +382,25 @@
 				'Token + bot launch',
 				'$4m mcap + $200k revenue'
 			]
+		},
+		{
+			title: 'wendy.fi',
+			success: true,
+			link: 'https://wendy.fi',
+			link_tag: 'wendy.fi',
+			description:
+				'Wendy.fi aims to mitigate the issue of staker concentration on the Ethereum network by offering a decentralized approach. It enables protocols to compete for users by offering incentives that are inversely proportional to their market share. This incentivizes users to opt for protocols with lower market share, promoting a more distributed staking ecosystem.',
+			tags: [
+				{
+					title: 'PROTOCOL',
+					style: 'color: var(--color-pivot);'
+				},
+				{
+					title: 'IN PROGRESS 🐝',
+					style: 'color: var(--color-incubating);'
+				}
+			],
+			achievements: ['Core bribe mechanism', 'Pitch deck']
 		}
 	];
 	$: attempts_reversed = attempts.slice().reverse();
