@@ -166,10 +166,6 @@
 				{
 					title: 'AGGREGATOR',
 					style: 'color: var(--color-pivot);'
-				},
-				{
-					title: 'VIBING 🐸',
-					style: 'color: var(--color-walking);'
 				}
 			],
 			achievements: ['120k monthly traffic', '$200m volume on contracts', '20m valuation']
@@ -371,10 +367,6 @@
 				{
 					title: 'BOT',
 					style: 'color: var(--color-pivot);'
-				},
-				{
-					title: 'VIBING 🐸',
-					style: 'color: var(--color-walking);'
 				}
 			],
 			achievements: [
@@ -384,6 +376,25 @@
 				'Token + bot launch',
 				'$4m mcap + $200k revenue'
 			]
+		},
+		{
+			title: 'memeswap',
+			success: true,
+			link: 'https://memeswap.fi',
+			link_tag: 'memeswap.fi',
+			description:
+				'Memeswap provides a tailor-made DEX experience where users can create and launch safe meme tokens, as well as trade them seamlessly.',
+			tags: [
+				{
+					title: 'DEX',
+					style: 'color: var(--color-pivot);'
+				},
+				{
+					title: 'IN PROGRESS 🐝',
+					style: 'color: var(--color-incubating);'
+				}
+			],
+			achievements: ['V1 Contracts', 'Web application', 'Marketing strategy']
 		},
 		{
 			title: 'wendy',
@@ -403,25 +414,6 @@
 				}
 			],
 			achievements: ['Bribe mechanism', 'Pitch deck', 'Team formation']
-		},
-		{
-			title: 'magicbooth',
-			success: true,
-			link: 'https://magicbooth.ai',
-			link_tag: 'magicbooth.ai',
-			description:
-				'MagicBooth is a simple, free-to-use face-swap service. It allows you to swap your face with any photo you like. Just upload a photo of yourself and the photo you want your face to be swapped in and let it cook!',
-			tags: [
-				{
-					title: 'AI',
-					style: 'color: var(--color-pivot);'
-				},
-				{
-					title: 'IN PROGRESS 🐝',
-					style: 'color: var(--color-incubating);'
-				}
-			],
-			achievements: ['AI setup', 'Proof of concept', 'UI/UX design']
 		}
 	];
 	$: attempts_reversed = attempts.slice().reverse();
