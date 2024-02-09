@@ -35,10 +35,10 @@
 			tags: [
 				{
 					title: 'PLATFORM',
-					style: 'color: var(--color-pivot);'
+					style: 'color: var(--color-primary);'
 				},
 				{
-					title: 'DEAD 💀',
+					title: '💀',
 					style: 'color: var(--color-primary);'
 				}
 			],
@@ -61,10 +61,10 @@
 			tags: [
 				{
 					title: 'CO-WORKING',
-					style: 'color: var(--color-pivot);'
+					style: 'color: var(--color-primary);'
 				},
 				{
-					title: 'DEAD 💀',
+					title: '💀',
 					style: 'color: var(--color-primary);'
 				}
 			],
@@ -85,11 +85,11 @@
 				"Guuru was an initiative to educate and on-board traditional companies to blockchain. We travelled to various events and collected connections all over the country. Although it didn't go far, it's where my blockchain journey started.",
 			tags: [
 				{
-					title: 'CONSULTATION',
-					style: 'color: var(--color-pivot);'
+					title: 'CONSULTANCY',
+					style: 'color: var(--color-primary);'
 				},
 				{
-					title: 'DEAD 💀',
+					title: '💀',
 					style: 'color: var(--color-primary);'
 				}
 			],
@@ -111,10 +111,10 @@
 			tags: [
 				{
 					title: 'MODULAR CONSTRUCTION',
-					style: 'color: var(--color-pivot);'
+					style: 'color: var(--color-primary);'
 				},
 				{
-					title: 'DEAD 💀',
+					title: '💀',
 					style: 'color: var(--color-primary);'
 				}
 			],
@@ -136,10 +136,10 @@
 			tags: [
 				{
 					title: 'CONSUMER RENTAL',
-					style: 'color: var(--color-pivot);'
+					style: 'color: var(--color-primary);'
 				},
 				{
-					title: 'DEAD 💀',
+					title: '💀',
 					style: 'color: var(--color-primary);'
 				}
 			],
@@ -165,7 +165,7 @@
 			tags: [
 				{
 					title: 'AGGREGATOR',
-					style: 'color: var(--color-pivot);'
+					style: 'color: var(--color-primary);'
 				}
 			],
 			achievements: ['120k monthly traffic', '$200m volume on contracts', '20m valuation']
@@ -178,10 +178,10 @@
 			tags: [
 				{
 					title: 'SIDE PROJECT',
-					style: 'color: var(--color-pivot);'
+					style: 'color: var(--color-primary);'
 				},
 				{
-					title: 'DEAD 💀',
+					title: '💀',
 					style: 'color: var(--color-primary);'
 				}
 			],
@@ -203,10 +203,10 @@
 			tags: [
 				{
 					title: 'NFT GAME',
-					style: 'color: var(--color-pivot);'
+					style: 'color: var(--color-primary);'
 				},
 				{
-					title: 'DEAD 💀',
+					title: '💀',
 					style: 'color: var(--color-primary);'
 				}
 			],
@@ -232,10 +232,10 @@
 			tags: [
 				{
 					title: 'PROTOCOL',
-					style: 'color: var(--color-pivot);'
+					style: 'color: var(--color-primary);'
 				},
 				{
-					title: 'DEAD 💀',
+					title: '💀',
 					style: 'color: var(--color-primary);'
 				}
 			],
@@ -253,10 +253,10 @@
 			tags: [
 				{
 					title: 'PROTOCOL',
-					style: 'color: var(--color-pivot);'
+					style: 'color: var(--color-primary);'
 				},
 				{
-					title: 'DEAD 💀',
+					title: '💀',
 					style: 'color: var(--color-primary);'
 				}
 			],
@@ -279,10 +279,10 @@
 			tags: [
 				{
 					title: 'AGENCY',
-					style: 'color: var(--color-pivot);'
+					style: 'color: var(--color-primary);'
 				},
 				{
-					title: 'DEAD 💀',
+					title: '💀',
 					style: 'color: var(--color-primary);'
 				}
 			],
@@ -300,10 +300,10 @@
 			tags: [
 				{
 					title: 'NFT GAME',
-					style: 'color: var(--color-pivot);'
+					style: 'color: var(--color-primary);'
 				},
 				{
-					title: 'DEAD 💀',
+					title: '💀',
 					style: 'color: var(--color-primary);'
 				}
 			],
@@ -321,10 +321,10 @@
 			tags: [
 				{
 					title: 'PLATFORM',
-					style: 'color: var(--color-pivot);'
+					style: 'color: var(--color-primary);'
 				},
 				{
-					title: 'IN PROGRESS 🐝',
+					title: '🐝',
 					style: 'color: var(--color-incubating);'
 				}
 			],
@@ -345,10 +345,10 @@
 			tags: [
 				{
 					title: 'SAAS',
-					style: 'color: var(--color-pivot);'
+					style: 'color: var(--color-primary);'
 				},
 				{
-					title: 'DEAD 💀',
+					title: '💀',
 					style: 'color: var(--color-primary);'
 				}
 			],
@@ -366,7 +366,7 @@
 			tags: [
 				{
 					title: 'BOT',
-					style: 'color: var(--color-pivot);'
+					style: 'color: var(--color-primary);'
 				}
 			],
 			achievements: [
@@ -387,10 +387,10 @@
 			tags: [
 				{
 					title: 'DEX',
-					style: 'color: var(--color-pivot);'
+					style: 'color: var(--color-primary);'
 				},
 				{
-					title: 'IN PROGRESS 🐝',
+					title: '🐝',
 					style: 'color: var(--color-incubating);'
 				}
 			],
@@ -406,10 +406,10 @@
 			tags: [
 				{
 					title: 'PROTOCOL',
-					style: 'color: var(--color-pivot);'
+					style: 'color: var(--color-primary);'
 				},
 				{
-					title: 'IN PROGRESS 🐝',
+					title: '🐝',
 					style: 'color: var(--color-incubating);'
 				}
 			],
