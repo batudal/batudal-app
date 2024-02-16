@@ -303,13 +303,11 @@
 					style: 'color: var(--color-primary);'
 				},
 				{
-					title: '💀',
+					title: '🐝',
 					style: 'color: var(--color-primary);'
 				}
 			],
-			achievements: ['Demo application', 'Physical sculpture', 'Branding assets', 'Team formation'],
-			post_mortem:
-				"Team wasn't cross-functional so couldn't come up with a cohesive plan to market and grow the brand. Most of the development is done so it's possible we revisit the project in the future."
+			achievements: ['Demo application', 'Physical sculpture', 'Branding assets', 'Team formation']
 		},
 		{
 			title: 'honestwork',
@@ -454,13 +452,13 @@
 			<div style="height:24px" />
 			<div class="status">
 				<div class="tag">
-					<h4><span>{attempts.length} </span>PROJECTS</h4>
+					<h4><span>{attempts.length} </span>Projects</h4>
 				</div>
 				<div style="width:20px" />
 				<img src={`${assets}/icons/arrow.svg`} alt="arrow" />
 				<div style="width:20px" />
 				<div class="tag">
-					<h4><span>{attempts.filter((a) => a.success == false).length} </span>FAILS</h4>
+					<h4><span>{attempts.filter((a) => a.success == false).length} </span>Fails</h4>
 				</div>
 			</div>
 			<div style="height:24px" />
@@ -502,11 +500,11 @@
 					</div>
 				{/if}
 				<div class="divider-large" />
-				<h3>ABSTRACT</h3>
+				<h3>Abstract</h3>
 				<div class="divider-small" />
 				<p>{attempt.description}</p>
 				<div class="divider-large" />
-				<h3>PROGRESS</h3>
+				<h3>Progress</h3>
 				<div class="divider-small" />
 				{#each attempt.achievements as achievement}
 					<div class="skills-container">
@@ -520,7 +518,7 @@
 				{#if attempt.post_mortem}
 					<div class="divider-large" />
 					<div class="post-mortem-container">
-						<h3>POST-MORTEM</h3>
+						<h3>Post-Mortem</h3>
 						<div class="divider-small" />
 						<p>{attempt.post_mortem}</p>
 						{#if i !== attempts.length - 1}
