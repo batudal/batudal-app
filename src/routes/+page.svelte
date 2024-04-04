@@ -393,25 +393,6 @@
 				}
 			],
 			achievements: ['V1 Contracts', 'Web application', 'Marketing strategy']
-		},
-		{
-			title: 'wendy',
-			success: true,
-			link: 'https://wendy.fi',
-			link_tag: 'wendy.fi',
-			description:
-				'Wendy.fi aims to mitigate the issue of staker concentration on the Ethereum network by offering a decentralized approach. It enables protocols to compete for users by offering incentives that are inversely proportional to their market share. This incentivizes users to opt for protocols with lower market share, promoting a more distributed staking ecosystem.',
-			tags: [
-				{
-					title: 'PROTOCOL',
-					style: 'color: var(--color-primary);'
-				},
-				{
-					title: '🐝',
-					style: 'color: var(--color-incubating);'
-				}
-			],
-			achievements: ['Bribe mechanism', 'Pitch deck', 'Team formation']
 		}
 	];
 	$: attempts_reversed = attempts.slice().reverse();
