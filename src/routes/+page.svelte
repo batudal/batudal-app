@@ -392,7 +392,7 @@
 					style: 'color: var(--color-incubating);'
 				}
 			],
-			achievements: ['V1 Contracts', 'Web application', 'Marketing strategy']
+			achievements: ['V1 Contracts', 'Web application', 'Marketing strategy', 'Audit process']
 		}
 	];
 	$: attempts_reversed = attempts.slice().reverse();
@@ -403,6 +403,25 @@
 	<meta name="description" content="Batu Dal's personal website about startup attempts" />
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
 	<link rel="icon" type="image/png" href={`${assets}/favicon.png`} />
+	<!-- Calendly badge widget begin -->
+	<link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet" />
+	<script
+		src="https://assets.calendly.com/assets/external/widget.js"
+		type="text/javascript"
+		async
+	></script>
+	<script type="text/javascript">
+		window.onload = function () {
+			Calendly.initBadgeWidget({
+				url: 'https://calendly.com/batu-ihg_/30min?background_color=1c1c1c&text_color=ffffff&primary_color=f23153',
+				text: "Let's talk!",
+				color: '#f23153',
+				textColor: '#ffffff',
+				branding: undefined
+			});
+		};
+	</script>
+	<!-- Calendly badge widget end -->
 </svelte:head>
 
 <main>
@@ -446,9 +465,7 @@
 			<p>Scroll to see my hall of shame.</p>
 			<br />
 			<p>
-				Feel free to <span
-					><a href={reach_link} target="_blank" rel="noreferrer">reach out to me,</a></span
-				>
+				Feel free to <span><a href={reach_link} target="_blank" rel="noreferrer">dm me,</a></span>
 				or
 				<span
 					><a href="https://github.com/batudal" target="_blank" rel="noreferrer"
@@ -456,6 +473,7 @@
 					></span
 				>
 			</p>
+			<br />
 		</div>
 	</div>
 	<div class="attempts-container">
