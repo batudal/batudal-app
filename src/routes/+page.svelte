@@ -403,7 +403,6 @@
 	<meta name="description" content="Batu Dal's personal website about startup attempts" />
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
 	<link rel="icon" type="image/png" href={`${assets}/favicon.png`} />
-	<!-- Calendly badge widget begin -->
 	<link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet" />
 	<script
 		src="https://assets.calendly.com/assets/external/widget.js"
@@ -421,7 +420,6 @@
 			});
 		};
 	</script>
-	<!-- Calendly badge widget end -->
 </svelte:head>
 
 <main>
@@ -473,7 +471,6 @@
 					></span
 				>
 			</p>
-			<br />
 		</div>
 	</div>
 	<div class="attempts-container">
@@ -539,6 +536,7 @@
 		display: flex;
 		flex-direction: column;
 		align-items: center;
+		overflow-x: hidden;
 	}
 	.post-mortem-container {
 		display: flex;
@@ -582,7 +580,8 @@
 		justify-content: center;
 		align-items: center;
 		box-sizing: border-box;
-		padding: 0 24px;
+		padding: 24px;
+		margin-bottom: 24px;
 	}
 	.content-container {
 		max-width: 920px;
