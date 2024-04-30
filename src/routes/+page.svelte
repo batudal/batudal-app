@@ -391,9 +391,17 @@
 		<div class="content-container">
 			<h1><span>Hi, </span>I'm Batu.</h1>
 			<div style="height:24px" />
-			<p>I'm an entrepreneur.</p>
+			<p>I'm a generalist/entrepreneur.</p>
+			<br />
+			<p>
+				I'm usually more inclined towards digital realm, <br />currently focused on
+				<span>crypto</span>.
+			</p>
+			<br />
+			<p>Also, I'm learning Japanese for no reason.<br /> <span>どうぞよろしく</span>!</p>
+
 			<div style="height:24px" />
-			<p>I usually do all of these in a project;</p>
+			<p>I do most of these in a project;</p>
 			<div style="height:12px" />
 			{#each skills as skill}
 				<div class="skills-container">
