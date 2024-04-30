@@ -34,10 +34,6 @@
 				{
 					title: 'Digital Warehouse',
 					style: 'color: var(--color-primary);'
-				},
-				{
-					title: '💀',
-					style: 'color: var(--color-primary);'
 				}
 			],
 			achievements: [
@@ -60,10 +56,6 @@
 				{
 					title: 'Co-working Space',
 					style: 'color: var(--color-primary);'
-				},
-				{
-					title: '💀',
-					style: 'color: var(--color-primary);'
 				}
 			],
 			achievements: [
@@ -84,10 +76,6 @@
 			tags: [
 				{
 					title: 'Consulting',
-					style: 'color: var(--color-primary);'
-				},
-				{
-					title: '💀',
 					style: 'color: var(--color-primary);'
 				}
 			],
@@ -110,10 +98,6 @@
 				{
 					title: 'Modular Construction',
 					style: 'color: var(--color-primary);'
-				},
-				{
-					title: '💀',
-					style: 'color: var(--color-primary);'
 				}
 			],
 			achievements: [
@@ -134,10 +118,6 @@
 			tags: [
 				{
 					title: 'Consumer Electronics',
-					style: 'color: var(--color-primary);'
-				},
-				{
-					title: '💀',
 					style: 'color: var(--color-primary);'
 				}
 			],
@@ -166,7 +146,9 @@
 					style: 'color: var(--color-primary);'
 				}
 			],
-			achievements: ['120k monthly traffic', '$200m volume on contracts', '20m valuation']
+			achievements: ['120k monthly traffic', '$200m volume on contracts', '20m valuation'],
+			post_mortem:
+				"I left the project after 3 years of development. It's still running and growing."
 		},
 		{
 			title: 'txt',
@@ -176,10 +158,6 @@
 			tags: [
 				{
 					title: 'Side Project',
-					style: 'color: var(--color-primary);'
-				},
-				{
-					title: '💀',
 					style: 'color: var(--color-primary);'
 				}
 			],
@@ -201,10 +179,6 @@
 			tags: [
 				{
 					title: 'On-chain Games',
-					style: 'color: var(--color-primary);'
-				},
-				{
-					title: '💀',
 					style: 'color: var(--color-primary);'
 				}
 			],
@@ -230,10 +204,6 @@
 				{
 					title: 'NFT Protocol',
 					style: 'color: var(--color-primary);'
-				},
-				{
-					title: '💀',
-					style: 'color: var(--color-primary);'
 				}
 			],
 			achievements: ['Demo application', 'Branding assets', 'Solidity contracts'],
@@ -250,10 +220,6 @@
 			tags: [
 				{
 					title: 'Defi Protocol',
-					style: 'color: var(--color-primary);'
-				},
-				{
-					title: '💀',
 					style: 'color: var(--color-primary);'
 				}
 			],
@@ -275,10 +241,6 @@
 				{
 					title: 'Developer House',
 					style: 'color: var(--color-primary);'
-				},
-				{
-					title: '💀',
-					style: 'color: var(--color-primary);'
 				}
 			],
 			achievements: ['Branding assets', 'Landing page', 'Developer blog', 'First customers'],
@@ -295,10 +257,6 @@
 			tags: [
 				{
 					title: 'On-chain Game',
-					style: 'color: var(--color-primary);'
-				},
-				{
-					title: '💀',
 					style: 'color: var(--color-primary);'
 				}
 			],
@@ -325,7 +283,7 @@
 					style: 'color: var(--color-primary);'
 				},
 				{
-					title: '🐝',
+					title: 'Ongoing',
 					style: 'color: var(--color-incubating);'
 				}
 			],
@@ -348,10 +306,6 @@
 				{
 					title: 'SaaS',
 					style: 'color: var(--color-primary);'
-				},
-				{
-					title: '💀',
-					style: 'color: var(--color-primary);'
 				}
 			],
 			achievements: ['High-fidelity prototype', 'Landing page', 'Launch planning', 'Beta-list'],
@@ -369,10 +323,6 @@
 				{
 					title: 'Tradebot',
 					style: 'color: var(--color-primary);'
-				},
-				{
-					title: '💀',
-					style: 'color: var(--color-primary);'
 				}
 			],
 			achievements: [
@@ -382,8 +332,7 @@
 				'Token + bot launch',
 				'$4m mcap + $200k revenue'
 			],
-			post_mortem:
-				"I left the project due to organisational failure. It became very hard to re-organize when there're multiple stakeholders."
+			post_mortem: 'I left the project after 6 months of development.'
 		},
 		{
 			title: 'memeswap',
@@ -398,7 +347,7 @@
 					style: 'color: var(--color-primary);'
 				},
 				{
-					title: '🐝',
+					title: 'Ongoing',
 					style: 'color: var(--color-incubating);'
 				}
 			],
@@ -474,7 +423,7 @@
 				>
 				or
 				<span
-					><a href="https://github.com/tkzo" target="_blank" rel="noreferrer">checkout my github.</a
+					><a href="https://github.com/tkzo" target="_blank" rel="noreferrer">give me stars.</a
 					></span
 				>
 			</p>
@@ -522,7 +471,7 @@
 					<div class="divider-large" />
 					<div class="post-mortem-container">
 						<h3>Post-Mortem</h3>
-						<div class="divider-small" />
+						<div class="divider-smallest" />
 						<p>{attempt.post_mortem}</p>
 					</div>
 				{/if}
@@ -643,6 +592,9 @@
 	}
 	.divider-small {
 		height: 16px;
+	}
+	.divider-smallest {
+		height: 8px;
 	}
 	@media only screen and (max-width: 960px) {
 		.card-header {
