@@ -1,8 +1,6 @@
 <script lang="ts">
 	import { assets } from '$app/paths';
 
-	let reach_link = 'https://twitter.com/batudal';
-
 	let skills = [
 		{
 			name: 'Ideation',
@@ -34,7 +32,7 @@
 				'E-Liner builds upon the idea of a digital warehouse that solves the inefficiency problems in LTL transports. E-Liner is a software company modeled around a typical platform business; matching solo truck businesses with customers in need of cheap and fast cross-country transportation.',
 			tags: [
 				{
-					title: 'PLATFORM',
+					title: 'Digital Warehouse',
 					style: 'color: var(--color-primary);'
 				},
 				{
@@ -60,7 +58,7 @@
 				"We envision becoming the leading worldwide community of innovators, where individuals and businesses of all sizes cocreate a better future. Our joint efforts are focused on equipping InnHof's global members with enabling tailor- made programs & services, modern technologies in development and the most inspiring spaces to work at, thus allowing the collaborative creation of brand-new values at an increasing pace.",
 			tags: [
 				{
-					title: 'CO-WORKING',
+					title: 'Co-working Space',
 					style: 'color: var(--color-primary);'
 				},
 				{
@@ -85,7 +83,7 @@
 				"Guuru was an initiative to educate and on-board traditional companies to blockchain. We travelled to various events and collected connections all over the country. Although it didn't go far, it's where my blockchain journey started.",
 			tags: [
 				{
-					title: 'CONSULTANCY',
+					title: 'Consulting',
 					style: 'color: var(--color-primary);'
 				},
 				{
@@ -110,7 +108,7 @@
 				'Neustrukt aimed to bring a radical change in house production. Starting from software up to the final product via flexible fabricated modules; Neustrukt allowed for a more efficient and sustainable lifecycle for construction industry.',
 			tags: [
 				{
-					title: 'MODULAR CONSTRUCTION',
+					title: 'Modular Construction',
 					style: 'color: var(--color-primary);'
 				},
 				{
@@ -120,13 +118,13 @@
 			],
 			achievements: [
 				'ACM technology',
-				'ACM trademarking',
+				'ACM patents',
 				'Office space',
 				'Company formation',
 				'First customers'
 			],
 			post_mortem:
-				'Neustrukt is a much needed solution for todays construction industry. However, it needs a lengthy runway to achieve process excellency. We decided to scale down and focus to the core design system and intermediate products.'
+				'Neustrukt is a much needed solution for todays construction industry. However, it needs a lengthy runway to achieve process excellency. We decided to scale down and focus on the core design system and intermediate products.'
 		},
 		{
 			title: 'siradaki',
@@ -135,7 +133,7 @@
 				'Siradaki is a consumer electronics rental platform that aimed to provide a more sustainable flexible and affordable way obtain to consumer electronics. We aimed to provide subscripton models that allowed people to experience electronics without the need to purchase them.',
 			tags: [
 				{
-					title: 'CONSUMER RENTAL',
+					title: 'Consumer Electronics',
 					style: 'color: var(--color-primary);'
 				},
 				{
@@ -164,7 +162,7 @@
 				'Spintop is the next generation blockchain gaming hub that aims to utilize the new tools of web3 to offer a comprehensive experience for players, traders and investors. In Spintop, we aspire to guide, discuss and supply through blockchain gaming. The ecosystem is designed as a gaming hub that allows players to exchange their tokens, NFTs, and reviews.',
 			tags: [
 				{
-					title: 'AGGREGATOR',
+					title: 'Aggregator',
 					style: 'color: var(--color-primary);'
 				}
 			],
@@ -177,7 +175,7 @@
 				'TXT Project is a series of experiments that aims to explore the possibilities of blockchain technology in the art world. It involves automated twitter bots, 128+ stories, and multi-level mechanics running on the Ethereum blockchain.',
 			tags: [
 				{
-					title: 'SIDE PROJECT',
+					title: 'Side Project',
 					style: 'color: var(--color-primary);'
 				},
 				{
@@ -202,7 +200,7 @@
 				'Deadly Games is a series of 7 games, each inspired by one of the Deadly Sins. Main idea was to create a gamified, story-backed minting experience. It involved cutting-edge web3 technologies to create a unique experience for the players on StarkNET.',
 			tags: [
 				{
-					title: 'NFT GAME',
+					title: 'On-chain Games',
 					style: 'color: var(--color-primary);'
 				},
 				{
@@ -213,11 +211,10 @@
 			achievements: [
 				'Team formation',
 				'Landing page',
-				'Solidity contracts',
-				'Cairo contracts',
+				'Contracts',
 				'Demo game',
 				'Community growth',
-				'Investor atraction'
+				'MatchboxDAO grant'
 			],
 			post_mortem:
 				'Break-up between founders due to emotional responses. Later on, project got discontinued as main team moved on to other projects.'
@@ -231,7 +228,7 @@
 				'Fungible future offers a new way of liquidifying your most illiquid assets. Underyling protocol provides a trustless framework to share future profits and distributes earnings to token holders.',
 			tags: [
 				{
-					title: 'PROTOCOL',
+					title: 'NFT Protocol',
 					style: 'color: var(--color-primary);'
 				},
 				{
@@ -252,7 +249,7 @@
 				'Nether Finance is a decentralized protocol that allows users to stake, lock and vest their native tokens. It is focused on post-merge staking ecosystem, providing a decentralized alternative against the current monopolistic staking providers. ',
 			tags: [
 				{
-					title: 'PROTOCOL',
+					title: 'Defi Protocol',
 					style: 'color: var(--color-primary);'
 				},
 				{
@@ -272,13 +269,11 @@
 		{
 			title: 'decoded labs',
 			success: false,
-			link: 'https://www.decoded-labs.com',
-			link_tag: 'decoded-labs.com',
 			description:
 				'Decoded Labs is a developer collective committed to safeguard your ventures into the ambigous decentralized world.',
 			tags: [
 				{
-					title: 'AGENCY',
+					title: 'Developer House',
 					style: 'color: var(--color-primary);'
 				},
 				{
@@ -292,22 +287,30 @@
 		},
 		{
 			title: 'microcolonies',
-			success: true,
+			success: false,
 			link: 'https://www.microcolonies.com',
 			link_tag: 'microcolonies.com',
 			description:
-				'"Microcolonies" allows you to simultaneously experience game, art, nature, and finance in the decentralized world. This unique experience will give you the pleasure of a game where nature is the architect, art is the prize, and money is the result.',
+				'Microcolonies allows you to simultaneously experience game, art, nature, and finance in the decentralized world. This unique experience will give you the pleasure of a game where nature is the architect, art is the prize, and money is the result.',
 			tags: [
 				{
-					title: 'NFT GAME',
+					title: 'On-chain Game',
 					style: 'color: var(--color-primary);'
 				},
 				{
-					title: '🐝',
+					title: '💀',
 					style: 'color: var(--color-primary);'
 				}
 			],
-			achievements: ['Demo application', 'Physical sculpture', 'Branding assets', 'Team formation']
+			achievements: [
+				'Demo application',
+				'EVM contracts',
+				'Physical sculpture',
+				'Branding assets',
+				'Team formation'
+			],
+			post_mortem:
+				"Discontinued due to lack of dedication and marketing-orientation. It's still a side project. We might revisit it in the future."
 		},
 		{
 			title: 'honestwork',
@@ -318,7 +321,7 @@
 				'HonestWork connects clients with top-rated blockchain experts, including copywriters, developers, and designers.',
 			tags: [
 				{
-					title: 'PLATFORM',
+					title: 'Platform',
 					style: 'color: var(--color-primary);'
 				},
 				{
@@ -330,7 +333,8 @@
 				'Demo application',
 				'Customer interviews',
 				'Branding assets',
-				'Pivot to freemium model'
+				'Gitcoin grants',
+				'Convert to public good'
 			]
 		},
 		{
@@ -342,7 +346,7 @@
 				'Empowering visionaries working on early-stage projects with a risk management tool that tames doubt and fuels breakthroughs.',
 			tags: [
 				{
-					title: 'SAAS',
+					title: 'SaaS',
 					style: 'color: var(--color-primary);'
 				},
 				{
@@ -352,18 +356,22 @@
 			],
 			achievements: ['High-fidelity prototype', 'Landing page', 'Launch planning', 'Beta-list'],
 			post_mortem:
-				"Unvalidated idea. I didn't have the time to validate the idea and the market so we decided to put it on hold. We might revisit this in the future."
+				"I didn't have the time to validate the idea so  on hold. I might revisit in the future and see if I can make it more practical for early-stage startups and incubators."
 		},
 		{
 			title: 'cakebot',
-			success: true,
+			success: false,
 			link: 'https://cakebot.io',
 			link_tag: 'cakebot.io',
 			description:
-				"Access to DeFi is now a piece of cake with Cakebot's seamless trading and farming interface. Trade effortlessly, earn yield and never miss an opportunity with our free Telegram bot for Pancakeswap.",
+				"Cakebot is a telegram-focused trading bot. It's a simple and easy-to-use bot that helps you to trade on almost any EVM-based DEX. It involves countless features that make trading easier and more profitable like limit orders, sniper channels, and more.",
 			tags: [
 				{
-					title: 'BOT',
+					title: 'Tradebot',
+					style: 'color: var(--color-primary);'
+				},
+				{
+					title: '💀',
 					style: 'color: var(--color-primary);'
 				}
 			],
@@ -373,7 +381,9 @@
 				'Analytics dashboard',
 				'Token + bot launch',
 				'$4m mcap + $200k revenue'
-			]
+			],
+			post_mortem:
+				"I left the project due to organisational failure. It became very hard to re-organize when there're multiple stakeholders."
 		},
 		{
 			title: 'memeswap',
@@ -381,10 +391,10 @@
 			link: 'https://memeswap.fi',
 			link_tag: 'memeswap.fi',
 			description:
-				'Memeswap provides a tailor-made DEX experience where users can create and launch safe meme tokens, as well as trade them seamlessly.',
+				'Memeswap is a decentralized exchange that allows users to trade meme tokens in a secure and efficient manner. Memeswap also supports meme token creators by providing them with p2p liquidity rental, allowing them to create and distribute their own meme tokens without presales.',
 			tags: [
 				{
-					title: 'DEX',
+					title: 'Defi Protocol',
 					style: 'color: var(--color-primary);'
 				},
 				{
@@ -392,7 +402,7 @@
 					style: 'color: var(--color-incubating);'
 				}
 			],
-			achievements: ['V1 Contracts', 'Web application', 'Marketing strategy', 'Audit process']
+			achievements: ['EVM Contracts', 'Subgraphs', 'PWA', 'Audit process']
 		}
 	];
 	$: attempts_reversed = attempts.slice().reverse();
@@ -446,8 +456,6 @@
 				</div>
 			{/each}
 			<div style="height:24px" />
-			<p>And <span><strong>I fail a lot.</strong></span></p>
-			<div style="height:24px" />
 			<div class="status">
 				<div class="tag">
 					<h4><span>{attempts.length} </span>Projects</h4>
@@ -456,18 +464,17 @@
 				<img src={`${assets}/icons/arrow.svg`} alt="arrow" />
 				<div style="width:20px" />
 				<div class="tag">
-					<h4><span>{attempts.filter((a) => a.success == false).length} </span>Fails</h4>
+					<h4><span>{attempts.filter((a) => a.success == true).length} </span>Ongoing</h4>
 				</div>
 			</div>
 			<div style="height:24px" />
-			<p>Scroll to see my hall of shame.</p>
-			<br />
 			<p>
-				Feel free to <span><a href={reach_link} target="_blank" rel="noreferrer">dm me,</a></span>
+				Feel free to <span
+					><a href="https://x.com/takez0_o" target="_blank" rel="noreferrer">dm me,</a></span
+				>
 				or
 				<span
-					><a href="https://github.com/batudal" target="_blank" rel="noreferrer"
-						>checkout my github.</a
+					><a href="https://github.com/tkzo" target="_blank" rel="noreferrer">checkout my github.</a
 					></span
 				>
 			</p>
@@ -517,9 +524,6 @@
 						<h3>Post-Mortem</h3>
 						<div class="divider-small" />
 						<p>{attempt.post_mortem}</p>
-						{#if i !== attempts.length - 1}
-							<div class="divider-small" />
-						{/if}
 					</div>
 				{/if}
 			</div>
@@ -542,7 +546,10 @@
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
-		padding: 20px;
+		padding-left: 28px;
+		padding-right: 28px;
+		padding-top: 20px;
+		padding-bottom: 20px;
 		box-sizing: border-box;
 		background-color: var(--color-lightish);
 		border-radius: 12px;

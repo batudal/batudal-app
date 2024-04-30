@@ -1,12 +1,12 @@
 :root {
-	--color-bg: #1C1C1C;
+	--color-bg: #1c1c1c;
 	--color-light: #ffffff;
-	--color-light-50: rgba(255, 255, 255, 0.80);
+	--color-light-50: rgba(255, 255, 255, 0.8);
 	--color-dark: rgba(0, 0, 0, 0.5);
 	--color-lightish: rgba(255, 255, 255, 0.05);
 
 	--color-primary: #f23153;
-	--color-pivot: #B7B7B7;
+	--color-pivot: #b7b7b7;
 	--color-incubating: #f2b031;
 	--color-walking: #31f27e;
 	--color-arrow: #181818;
@@ -96,7 +96,7 @@ a:hover {
 .tag {
 	display: flex;
 	flex-direction: row;
-	padding: 8px 12px ;
+	padding: 8px 12px;
 	box-sizing: border-box;
 	justify-content: center;
 	align-items: center;
